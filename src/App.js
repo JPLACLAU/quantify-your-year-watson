@@ -41,7 +41,7 @@ class App extends Component {
 
   render() {
     // get data id from url
-    const dataId = this.props.params.dataId || "tanyofish-swimming-2020";
+    const dataId = this.props.params.dataId || "jpl-coding-2023";
     const setting = require(`./settings/${dataId}.json`);
     let data = require(`./data/${dataId}.json`);
     let {
@@ -114,8 +114,32 @@ class App extends Component {
         <ByDay {...setting} dims={dims} data={data} />
         <div className="row">
           <div className={`col-xs-12 footer ${color}`}>
-            <span className="link">Thanks for passing by.</span>
-            <span className="link">JPL</span>
+            <span className="link">Thanks for passing by</span>
+            <span className="link">
+              <a
+                title="Github Repository"
+                href="https://github.com/JPLACLAU/quantify-your-year-watson"
+              >
+                ReactJS app adapted by JPL
+              </a>
+            </span>
+
+            <span className="link">
+              <a title="Portfolio website" href="https://code.jplaclau.com">
+                Don't forget to check my Portfolio website
+              </a>
+            </span>
+            <span className="link">
+              <a title="Portfolio website" href="https://code.jplaclau.com">
+                <img
+                  src="/jplwebsite.ico"
+                  href="https://code.jplaclau.com"
+                  width="24"
+                  height="24"
+                />
+              </a>
+            </span>
+
             {setting.dataSource && (
               <span className="link">
                 Powered by
