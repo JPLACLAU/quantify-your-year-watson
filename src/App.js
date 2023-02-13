@@ -130,9 +130,7 @@ class App extends Component {
               </a>
             </span>
             <span className="link">
-              <a title="Portfolio website" href="https://code.jplaclau.com">
-                <img src="%PUBLIC_URL%/jplwebsite.ico" width="24" height="24" />
-              </a>
+              <a title="Portfolio website" href="https://code.jplaclau.com"></a>
             </span>
 
             {setting.dataSource && (
