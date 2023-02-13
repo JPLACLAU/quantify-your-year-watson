@@ -131,12 +131,7 @@ class App extends Component {
             </span>
             <span className="link">
               <a title="Portfolio website" href="https://code.jplaclau.com">
-                <img
-                  src="/jplwebsite.ico"
-                  href="https://code.jplaclau.com"
-                  width="24"
-                  height="24"
-                />
+                <img src="/jplwebsite.ico" width="24" height="24" />
               </a>
             </span>
 
