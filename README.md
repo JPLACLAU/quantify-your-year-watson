@@ -1,6 +1,8 @@
 # Quantify Your Year: JPL's Quantified Year
 
-Current version: **`v0.1`**
+Current version: **`v0.1.1`**
+Last Data Update: **`20-02-2022`**
+(I update the data aprox once every two weeks.)
 
 Calendar-based visualization of one kind of activity over the course of a calendar year
 It is a tool to help me keep track of my hours dedicated for coding and for keeping healthy.

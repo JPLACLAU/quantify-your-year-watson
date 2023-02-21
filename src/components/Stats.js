@@ -41,11 +41,11 @@ class Stats extends Component {
             This means in average
             {` `}
             <ii>
-              {(stats.active[unit] / 6.2).toFixed(1)} <l>days/week</l>
+              {(stats.active[unit] / 7.2).toFixed(1)} <l>days/week</l>
             </ii>
             {` `}and{" "}
             <ii>
-              {(stats.active[unit] / 1.4).toFixed(1)} <l>days/month</l>
+              {(stats.active[unit] / 1.75).toFixed(1)} <l>days/month</l>
             </ii>
             .
           </div>
